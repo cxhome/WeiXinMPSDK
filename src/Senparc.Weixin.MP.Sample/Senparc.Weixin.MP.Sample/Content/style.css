@@ -21,7 +21,7 @@
 }
 
 .navbar-collapse {
-    float: right;
+    float: left;
 }
 
 .wrapper-header {
@@ -65,7 +65,7 @@
     }
 
 .senparc-jumbotron {
-    background: url(/images/v2/background.png);
+    background: url(/images/background.png);
     width: 100%;
     padding: 28px 0 0 0;
 }
@@ -700,7 +700,7 @@ p.crowdfunding-note {
     }
 
     .contact {
-        margin-top: 100px;
+        margin-top: 60px;
     }
 
     .catalog a {
