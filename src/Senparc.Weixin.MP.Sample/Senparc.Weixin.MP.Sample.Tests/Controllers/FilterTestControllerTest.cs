@@ -47,6 +47,7 @@ namespace Senparc.Weixin.MP.Sample.Tests.Controllers
         [TestMethod]
         public void IndexTest()
         {
+            //检测是不是用微信打开的页面
             var errorMsg = "访问被拒绝，请通过微信客户端访问！";
             var filter = new WeixinInternalRequestAttribute(errorMsg);
 
